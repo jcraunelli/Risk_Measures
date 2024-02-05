@@ -20,4 +20,3 @@ For the VaR estimation, usually we would choose two confidence levels of 95% and
 Usually, there are two methods to estimate a VaR. The first method is based on the assumption that our security or portfolio returns follow a normal distribution, while the second method depends on the ranking of the historical returns. Before discussing the first method, let's review the concepts with respect to a normal distribution.
 
 One function called spicy.stats.norm.pdf() could be used to estimate the density. The function has three input values: x, μ, and σ. The following code calls this function and verifies the results manually
-
